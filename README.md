@@ -11,41 +11,41 @@ Nim     : 09030182428014
    
    b) PID dan COMMAND dari proses yang paling banyak menggunakan CPU Semua proses menunjukkan %CPU = 100 Maka dipilih proses yang aktif (R+): PID: 748 COMMAND: ps -au
 
-       <img width="468" alt="desi1b" src="https://github.com/user-attachments/assets/f0930491-174e-4a2f-aefc-0e809ad89cd4" />
+      <img width="468" alt="desi1b" src="https://github.com/user-attachments/assets/d76c4d82-4bb5-45ef-ba78-a07801f970bf" />
 
 
    c) Buyut proses dan PID dari proses tersebut Tracing dari proses ps -au:
 
-        <img width="290" alt="desi1c" src="https://github.com/user-attachments/assets/07657f12-3f50-446a-8cae-a4497e1a82f4" />
+      <img width="290" alt="desi1c" src="https://github.com/user-attachments/assets/2c59ed49-26a9-4984-bb57-ee0663cceecc" />
 
     Jadi, buyut prosesnya adalah: PID: 1 COMMAND: /init
 
 
    d) beberapa proses daemon
 
-       <img width="347" alt="desi1d" src="https://github.com/user-attachments/assets/7fabd411-e3a8-4d3b-920a-8d699b2e45e6" />
+      <img width="347" alt="desi1d" src="https://github.com/user-attachments/assets/519ccacc-d02a-47ae-acd2-fc64e93863ae" />
 
 
    e) Menjalankan perintah
 
   -$ csh
 
-     <img width="451" alt="desi1e csh" src="https://github.com/user-attachments/assets/a335fbfb-3ba2-48ae-bf12-639a2d462cc1" />
+   <img width="451" alt="desi1e csh" src="https://github.com/user-attachments/assets/ac24f62c-eeff-4a7a-bdc1-5ccd4d9ccaa7" />
 
 
   -$ who , $ bash , dan $ ls
 
-     <img width="468" alt="desi1e who,bash,ls" src="https://github.com/user-attachments/assets/661760e8-2d4f-4760-bdf0-ea4727360c40" />
+   <img width="468" alt="desi1e who,bash,ls" src="https://github.com/user-attachments/assets/212d397e-a267-48a8-8b16-221dd507be06" />
 
 
   -$ sh
 
-      <img width="188" alt="desi1e sh" src="https://github.com/user-attachments/assets/66ff09c4-20b3-4d9e-b51a-40f32a3ac0e2" />
+   <img width="188" alt="desi1e sh" src="https://github.com/user-attachments/assets/c7fc075f-0651-4095-9f30-a82e22e22567" />
 
 
   -$ ps
 
-    <img width="217" alt="desi1e ps" src="https://github.com/user-attachments/assets/85ab6d52-f699-4961-962b-192d9fb2a3d4" />
+   <img width="217" alt="desi1e ps" src="https://github.com/user-attachments/assets/00c8503a-0f1d-4078-a956-8e976d404e08" />
 
  PID terbesar: 931 (sh) Urutan lengkap sampai ke induk utama (PPID = 1) ditelusuri dengan ps -fp [PID]
 
