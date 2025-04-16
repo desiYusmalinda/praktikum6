@@ -11,7 +11,7 @@ Nim     : 09030182428014
    
    b) PID dan COMMAND dari proses yang paling banyak menggunakan CPU Semua proses menunjukkan %CPU = 100 Maka dipilih proses yang aktif (R+): PID: 748 COMMAND: ps -au
 
-        <img width="468" alt="desi1b" src="https://github.com/user-attachments/assets/411d3bbc-97a7-4761-824a-d6af1df2fbd1" />
+       <img width="468" alt="desi1b" src="https://github.com/user-attachments/assets/dd9a323e-1656-43f7-b69d-eda8f5d01de0" />
 
 
    c) Buyut proses dan PID dari proses tersebut Tracing dari proses ps -au:
